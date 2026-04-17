@@ -16,6 +16,49 @@ Efficient image compression relies on modeling both local and global redundancy.
 
 
 
+## Usage
+
+### Training
+
+```bash
+python train.py \
+  --train-root /home/datasets \
+  --train-split flickr \
+  --test-root /home/datasets \
+  --test-split kodak \
+  --epochs 600 \
+  --learning-rate 1e-4 \
+  --aux-learning-rate 1e-3 \
+  --lmbda 0.05 \
+  --ortho-weight 1e-1 \
+  --batch-size 8 \
+  --test-batch-size 1 \
+  --num-workers 16 \
+  --clip-max-norm 1.0 \
+  --loss-type mse \
+  --patch-size 256 256 \
+  --large-patch-size 512 512 \
+  --lr-drop-epoch 500 \
+  --lr-after-drop 1e-5 \
+  --large-patch-start-epoch 510 \
+  --save-dir ./ckpt \
+  --eval-every 5000 \
+  --log-every 100 \
+  --metric-update-every 50 \
+  --cuda
+```
+
+
+### Testing
+
+```bash
+python test.py \
+  --checkpoint \
+    ./0.05checkpoint_best.pth.tar \
+    ./0.025checkpoint_best.pth.tar \
+  --image-dir "./kodak"
+```
+
 ## Pretrained Models
 
 This repository provides the implementation and checkpoints of GLIC, trained with the acceleration strategy of [AuxT](https://github.com/qingshi9974/auxt).
@@ -33,9 +76,8 @@ This implementation builds upon several excellent projects:
 
 - [FTIC](https://github.com/qingshi9974/ICLR2024-FTIC)
 - [AuxT](https://github.com/qingshi9974/auxt)
-- [MambaIRv2](https://github.com/csguoh/MambaIR)
 - [CompressAI](https://github.com/InterDigitalInc/CompressAI)
-- [Neosr](https://github.com/neosr-project/neosr/tree/31c7022620c682cf0961c8634d60787179145c5b)
+- [IPG](https://github.com/huawei-noah/Efficient-Computing/tree/master/LowLevel/IPG)
 
 
 

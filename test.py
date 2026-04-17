@@ -215,7 +215,6 @@ def load_state_dict_from_checkpoint(checkpoint_path: str, device: torch.device) 
 
     if not isinstance(checkpoint, dict):
         raise ValueError(f"Unsupported checkpoint format: {checkpoint_path}")
-
     if "state_dict" in checkpoint:
         state_dict = checkpoint["state_dict"]
     elif "model_state_dict" in checkpoint:
