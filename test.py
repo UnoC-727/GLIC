@@ -51,7 +51,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pad-multiple",
         type=int,
-        default=64,
+        default=128,
         help="Pad image height/width to a multiple of this value before encoding.",
     )
     parser.add_argument(
