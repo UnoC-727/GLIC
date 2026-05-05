@@ -97,10 +97,14 @@ This repository provides the implementation and checkpoints of GLIC, trained wit
 
 **This is an initial release, and more updates will follow.**
 
-| Lambda | Metric | Baidu Netdisk | Google Drive |
-| ------ | ------ | ------------- | ------------ |
+
+| Lambda | Metric | Baidu Netdisk                                                                          | Google Drive                                                                                          |
+| ------ | ------ | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | 0.05   | MSE    | [Baidu Netdisk (code: pnif)](https://pan.baidu.com/s/1i0fF3NS1A76dnyGkDOkg1A?pwd=pnif) | [Google Drive](https://drive.google.com/file/d/1HzEQHAHz0FiTstYBl6VceJo5ukTrH5-s/view?usp=drive_link) |
-| 0.025  | MSE    | [Baidu Netdisk (code: gdsu)](https://pan.baidu.com/s/1s6kongGG-u9MfWmJG9cayw?pwd=gdsu) | [Google Drive](https://drive.google.com/file/d/1ju5E5MgZ4nXfB3xPamqej3Nt9c15qRtp/view?usp=sharing) |
+| 0.025  | MSE    | [Baidu Netdisk (code: gdsu)](https://pan.baidu.com/s/1s6kongGG-u9MfWmJG9cayw?pwd=gdsu) | [Google Drive](https://drive.google.com/file/d/1ju5E5MgZ4nXfB3xPamqej3Nt9c15qRtp/view?usp=sharing)    |
+| 0.013  | MSE    | [Baidu Netdisk (code: rayb)](https://pan.baidu.com/s/1cbfSgy3e1f2JJNaF0ig2cw?pwd=rayb) | [Google Drive](https://drive.google.com/file/d/1kJ2kkQmIJ-u8bEGMHNN4_dhP2QUySMzn/view?usp=sharing)    |
+| 0.0067 | MSE    | [Baidu Netdisk (code: 5rsg)](https://pan.baidu.com/s/14b3Rl99E7x7OK6n9ou8MMA?pwd=5rsg) | [Google Drive](https://drive.google.com/file/d/1Yw1APsP7bhv_5uXNm4BOI44IDXedZwFJ/view?usp=sharing)    |
+| 0.0035 | MSE    | [Baidu Netdisk (code: 73f9)](https://pan.baidu.com/s/1saVhoYrAZIx-c8Oj9xwEkA?pwd=73f9) | [Google Drive](https://drive.google.com/file/d/1POZTZXK7-mjeoVgxTkfQkg7Eqtn3Tq17/view?usp=sharing)    |
 
 ## Acknowledgement
 
