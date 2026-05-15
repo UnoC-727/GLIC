@@ -25,6 +25,9 @@ The detailed architecture of GLIC and GFA block.
 
 <img src="./assets/method.png"  style="zoom: 33%;" />
 
+An example of GLIC’s adaptivity through ERF visualizations
+<img src="./assets/adaptive.png"  style="zoom: 33%;" />
+
 ## R-D data
 
 ### Kodak,PSNR
