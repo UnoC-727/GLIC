@@ -1,6 +1,7 @@
 # CVPR2026-Adaptive Learned Image Compression with Graph Neural Networks
 
 
+<img src="./assets/logo.png"  style="zoom: 33%;" />
 
 Our code and some of the checkpoints are released. In the meantime, if you are interested, please feel free to check out our previous paper and open-source repository: [Content-Aware Mamba for Learned Image Compression (ICLR 2026)](https://openreview.net/forum?id=WwDNiisZQm), [CMIC GitHub](https://github.com/UnoC-727/CMIC).
 
