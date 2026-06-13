@@ -152,10 +152,11 @@ Feel free to reach me at [cyril-chenyn@sjtu.edu.cn](cyril-chenyn@sjtu.edu.cn) if
 ## Citation
 
 ```
-@article{chen2026adaptive,
+@inproceedings{chen2026adaptive,
   title={Adaptive Learned Image Compression with Graph Neural Networks},
   author={Chen, Yunuo and He, Bing and Lyu, Zezheng and Hu, Hongwei and Gu, Qunshan and Tian, Yuan and Lu, Guo},
-  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12150--12161},
   year={2026}
 }
 ```
